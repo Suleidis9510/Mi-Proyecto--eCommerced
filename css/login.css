@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-image {
+  background: url("../img/vecteezy_online-shopping-concept_1903669.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.div-logo-jap {
+  margin-top: 1rem;
+}
+
+.login-box {
+  background-color: white;
+  width: 30rem;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 150px;
+}
+
+/* estilos del login-box */
+.login-box h1 {
+  font-size: 2rem;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.login-box p {
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.login-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+
+/* Input group container */
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* Left icon styles */
+.input-icon-left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}
+
+/* Right icon styles */
+.input-icon-right {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+}
+
+/* Input field styles */
+.input-group input {
+  width: 100%;
+  padding: 10px 40px; /* Adjust padding for the icons */
+  border: 1px solid #ccc;
+
+  font-size: 16px;
+}
+
+/* Submit button styles */
+#btnIngreso {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+/* Submit Button */
+#btnIngreso {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+#btnIngreso:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #f8f9fa;
+}
+
+footer.footer-container p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  text-align: left;
+}
+
+footer.footer-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer.footer-container a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para versión móvil y tablets */
+@media (max-width: 1024px) {
+  .row-content-loginBox {
+    margin-right: 8rem;
+  }
+  .div-logo-jap {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    display: inline-block;
+  }
+  .ecommerce-jap {
+    width: 150px;
+  }
+}
+@media (max-width: 320px) {
+  .logo {
+    display: inline-block;
+  }
+  .img-ecommerce-jap {
+    width: 60px;
+  }
+  .login-box {
+    width: 100%;
+  }
+  .img-ecommerce-jap {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+  }
+}
